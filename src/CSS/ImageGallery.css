@@ -1,0 +1,14 @@
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 280px;
+}
+
+.gallery-image {
+    width: 384px;
+    height: 280px;
+    object-fit: cover;
+}

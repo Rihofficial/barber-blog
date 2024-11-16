@@ -1,0 +1,95 @@
+.container {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  position: relative;
+}
+
+.image-row {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 300px;
+}
+
+.image {
+  width: 290px;
+  max-width: 400px;
+  height: auto;
+}
+
+
+.pricing-section {
+  flex: 2;
+  width: 100%;
+  max-width: 552px;
+  margin-left: 170px;
+  /* margin-right: 5px; */
+  position: absolute;
+  top: 15%;
+  left: 130%;
+}
+
+.pricing-heading {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 40px 0;
+}
+
+.heading-background {
+  width: 50px;
+  height: 5px;
+  background-color: #fb0000;
+  position: absolute;
+  top: -10px;
+  left: 70px;
+}
+
+.pricing-heading h2 {
+  margin-left: 60px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  color: #150303;
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+.pricing-list {
+  list-style: none;
+  padding: 10px;
+
+}
+
+.pricing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  border-bottom: 1px solid #efdce4;
+  padding: 0 10px;
+}
+
+.service {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #150303;
+}
+
+.from,
+.price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.from {
+  color: #3f4854;
+}
+
+.price {
+  color: #fb0000;
+}

@@ -1,0 +1,94 @@
+:root {
+    --header-col: #150303;
+    --btn-col: #fb0000;
+}
+
+Link {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style: none;
+}
+
+/* HEADER STYLING */
+nav {
+    background-color: var(--header-col);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: center;
+    display: block;
+    margin-left: 3rem;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-wrapper ul {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.nav-list {
+    margin-right: 3rem;
+}
+
+.nav-list:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 9px;
+}
+
+.nav-link:hover {
+    color: #fb0000;
+}
+
+.nav-btn {
+    background-color: var(--btn-col);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 200px;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+.menubar {
+    align-self: center;
+    display: none;
+}
+
+.menubar i {
+    color: #fff;
+    font-size: 3rem;
+}
