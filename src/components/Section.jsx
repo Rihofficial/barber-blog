@@ -1,6 +1,6 @@
-import React from "react";
+
 import "../CSS/Section.css";
-import qheced from "../assets/Images/section-bg.jpg";
+
 
 const services = [
   {
