@@ -1,25 +1,26 @@
-
 import "../CSS/Section.css";
-
+import service1 from "../assets/Images/Icon/services1.svg";
+import service2 from "../assets/Images/Icon/services2.svg";
+import service3 from "../assets/Images/Icon/services3.svg";
 
 const services = [
   {
     title: "Stylish hair cut",
     description:
       "Available be the majority have\nsuffered alteration in some\nform, by injected humour.",
-    image: "./assets/services-1-svg.svg",
+    image: service1,
   },
   {
     title: "Cut & hair style",
     description:
       "Available be the majority have\nsuffered alteration in some\nform, by injected humour.",
-    image: "./assets/services-2-svg.svg",
+    image: service2,
   },
   {
     title: "Color & hair wash",
     description:
       "Available be the majority have\nsuffered alteration in some\nform, by injected humour.",
-    image: "./assets/services-3-svg.svg",
+    image: service3,
   },
 ];
 

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import About2 from "../assets/Images/about2.jpg";
 import { FaAngleDown } from "react-icons/fa6";
 import { FaAngleUp } from "react-icons/fa6";
-import "../CSS/WhatWE.css"; 
+import "../CSS/WhatWE.css";
 
 const WhatWE = () => {
   const [activeSection, setActiveSection] = useState(null);
@@ -32,10 +33,25 @@ const WhatWE = () => {
             >
               <span>For Hair</span>
               <div
-                
                 className={`icon ${activeSection === "hair" ? "expanded" : ""}`}
               >
-                {activeSection === "hair" ? <FaAngleUp /> : <FaAngleDown />}
+                {activeSection === "hair" ? (
+                  <FaAngleUp
+                    style={{
+                      color: "white",
+                      fontSize: "30px",
+                      background: "none",
+                    }}
+                  />
+                ) : (
+                  <FaAngleDown
+                    style={{
+                      color: "white",
+                      fontSize: "30px",
+                      background: "none",
+                    }}
+                  />
+                )}
               </div>
             </div>
             {activeSection === "hair" && (
@@ -78,12 +94,27 @@ const WhatWE = () => {
             >
               <span>For Beard</span>
               <div
-                
                 className={`icon ${
                   activeSection === "beard" ? "expanded" : ""
                 }`}
               >
-                {activeSection === "beard" ? <FaAngleUp /> : <FaAngleDown />}
+                {activeSection === "beard" ? (
+                  <FaAngleUp
+                    style={{
+                      color: "white",
+                      fontSize: "30px",
+                      background: "none",
+                    }}
+                  />
+                ) : (
+                  <FaAngleDown
+                    style={{
+                      color: "white",
+                      fontSize: "30px",
+                      background: "none",
+                    }}
+                  />
+                )}
               </div>
             </div>
             {activeSection === "beard" && (
@@ -117,11 +148,9 @@ const WhatWE = () => {
           </div>
         </div>
       </div>
-      <img
-        className="about-image"
-        src="./assets/about-2-jpg.svg"
-        alt="Barber service"
-      />
+      <div className="right-section-img">
+        <img className="about-image" src={About2} alt="Barber service" />
+      </div>
     </div>
   );
 };

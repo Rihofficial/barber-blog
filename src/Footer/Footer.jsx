@@ -1,5 +1,5 @@
-import React from "react";
-import "./Footer.css"; // Import the external CSS file
+import "./Footer.css";
+import footerLogo from "../assets/Images/Logo/logo2_footer.png";
 
 const Footer = () => {
   return (
@@ -12,10 +12,10 @@ const Footer = () => {
           <p className="emails">contact@cakeshop.com</p>
         </div>
         <div className="logo-section">
-          <img src="./assets/logo-2-footer-png.svg" alt="Logo" />
+          <img src={footerLogo} alt="Logo" />
           <p>
-            There are many variations of passages of <br />Lorem Ipsum available be
-            the majority.
+            There are many variations of passages of <br />
+            Lorem Ipsum available be the majority.
           </p>
           <div className="social-icons">
             <div className="icon">

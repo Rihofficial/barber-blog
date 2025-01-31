@@ -1,12 +1,13 @@
-import React from "react";
+import instra1 from "../assets/Images/instra1.jpg"
+import instra2 from "../assets/Images/instra2.jpg"
+import instra3 from "../assets/Images/instra3.jpg"
+import instra4 from "../assets/Images/instra4.jpg"
+import instra5 from "../assets/Images/instra5.jpg"
+import instra6 from "../assets/Images/instra6.jpg"
 import "../CSS/ImageGallery.css";
 
 const images = [
-  "./assets/instra-1-jpg.svg",
-  "./assets/instra-2-jpg.svg",
-  "./assets/instra-3-jpg.svg",
-  "./assets/instra-4-jpg.svg",
-  "./assets/instra-2-jpg-2.svg",
+ instra1, instra2,instra3,instra4,instra5,instra6
 ];
 
 const ImageGallery = () => {
