@@ -1,22 +1,25 @@
 import React from "react";
+import customer1 from "../assets/Images/customer1.png";
+import customer2 from "../assets/Images/customer2.png";
+import customer3 from "../assets/Images/customer3.png";
 import "../CSS/Testimonials.css";
 
 const testimonials = [
   {
     name: "Wilma Mumduya",
-    image: "./assets/customer-1-png.svg",
+    image:  customer1 ,
     quote:
       "Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.",
   },
   {
     name: "Jimmy Changa",
-    image: "./assets/customer-2-png.svg",
+    image:  customer2 ,
     quote:
       "Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.",
   },
   {
     name: "Wilma Mumduya",
-    image: "./assets/customer-3-png.svg",
+    image: customer3 ,
     quote:
       "Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.",
   },
