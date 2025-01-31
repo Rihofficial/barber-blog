@@ -1,15 +1,20 @@
-import React from "react";
 import "../CSS/OurPrices.css";
+import barber1 from "../assets/Images/barber1.jpg";
+import barber2 from "../assets/Images/barber2.jpg";
+import barber3 from "../assets/Images/barber3.jpg";
+import barber4 from "../assets/Images/barber4.jpg";
+import barber5 from "../assets/Images/barber5.jpg";
+import barber6 from "../assets/Images/barber6.jpg";
 const OurPrices = () => {
   return (
     <div className="container">
       <div className="image-row">
-        <img src="./assets/barber-1-jpg.svg" alt="Barber 1" className="image" />
-        <img src="./assets/barber-2-jpg.svg" alt="Barber 2" className="image" />
-        <img src="./assets/barber-3-jpg.svg" alt="Barber 3" className="image" />
-        <img src="./assets/barber-4-jpg.svg" alt="Barber 4" className="image" />
-        <img src="./assets/barber-5-jpg.svg" alt="Barber 5" className="image" />
-        <img src="./assets/barber-6-jpg.svg" alt="Barber 6" className="image" />
+        <img src={barber1} alt="Barber 1" className="image" />
+        <img src={barber2} alt="Barber 2" className="image" />
+        <img src={barber3} alt="Barber 3" className="image" />
+        <img src={barber4} alt="Barber 4" className="image" />
+        <img src={barber5} alt="Barber 5" className="image" />
+        <img src={barber6} alt="Barber 6" className="image" />
       </div>
       <div className="pricing-section">
         <div className="pricing-heading">
