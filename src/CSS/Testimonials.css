@@ -76,8 +76,9 @@
     font-size: 16px;
     color: #150303;
 }
+
 @media (max-width: 1024px) {
-.testimonials-section {
+    .testimonials-section {
         margin-top: 15px;
         text-align: center;
         padding: 140px 70px 0px 70px;
@@ -86,8 +87,8 @@
 }
 
 
-@media (max-width: 768px) {
-.testimonials-section {
+@media (max-width: 768px)  {
+    .testimonials-section {
         margin-top: 15px;
         text-align: center;
         padding: 140px 70px 0px 70px;
@@ -97,11 +98,13 @@
 }
 
 @media (max-width: 480px) {
-.testimonials-section {
+    .testimonials-section {
         margin-top: 15px;
         text-align: center;
         padding: 140px 70px 0px 70px;
         height: 90vh;
+        /* margin-top: 70rem; */
+        margin-bottom: 50rem;
     }
 }
 

@@ -97,3 +97,47 @@
 .colorlib-link {
     color: #fb0000;
 }
+
+@media (max-width: 1024px) {
+    .footer {
+        height: 62vh;
+        background-color: #150303;
+        color: #928888;
+        padding: 40px 0;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        height: 62vh;
+        background-color: #150303;
+        color: #928888;
+        padding: 40px 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        height: 100%;
+        margin-top: 70rem;
+        background-color: #150303;
+        color: #928888;
+        /* padding: 40px 0; */
+        text-align: center;
+    }
+
+    .footer-container {
+        margin-top: 76px;
+        /* padding: 30px 50px 0px 50px; */
+        height: 100%;
+        gap: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
