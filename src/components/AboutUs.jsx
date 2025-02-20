@@ -1,12 +1,14 @@
-import React from "react";
-import '../CSS/AboutUs.css'
+import "../CSS/AboutUs.css";
 import about1 from "../assets/Images/about1.jpg";
 import { FaCheck } from "react-icons/fa";
 
 const AboutUs = () => {
-  return <div className="section">
+  return (
+    <div className="section">
       <div className="left-column">
-        <ListSection />
+        <p>
+          <ListSection />
+        </p>
       </div>
       <div className="center-image">
         <img src={about1} alt="About" />
@@ -24,7 +26,8 @@ const AboutUs = () => {
         <button className="book-now">Book Now</button>
       </div>
     </div>
-  
+  );
+
   function ListSection() {
     const items = [
       "Be the majority have suffered alteration in some form, by injected humour.",
@@ -39,7 +42,6 @@ const AboutUs = () => {
           <li key={index}>
             <span className="bullet">
               <FaCheck />
-             
             </span>
             {item}
           </li>
@@ -47,8 +49,6 @@ const AboutUs = () => {
       </ul>
     );
   }
-
-
 };
 
 export default AboutUs;

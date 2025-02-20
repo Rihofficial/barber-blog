@@ -92,3 +92,64 @@ nav {
     color: #fff;
     font-size: 3rem;
 }
+
+/* menu button */
+.menu-button {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* DropDown menu */
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdown-menu li {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.dropdown-menu li:hover {
+    color: red;
+}
+
+@media (max-width: 1024px) {
+    .menu-wrapper {
+        display: none;
+        width: 100%;
+
+    }
+
+    .menu-button {
+        display: block;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-wrapper {
+        display: none;
+        width:100%;
+
+    }
+
+    .menu-button {
+        display: block;
+
+    }
+}

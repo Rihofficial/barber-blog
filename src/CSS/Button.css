@@ -8,7 +8,8 @@
     cursor: pointer;
     z-index: 1;
 }
-.button::before{
+
+.button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -19,9 +20,11 @@
     background-color: #fff;
     z-index: -1;
 }
-.button:hover{
+
+.button:hover {
     color: #fb0000;
 }
-.button:hover::before{
+
+.button:hover::before {
     width: 100%;
 }

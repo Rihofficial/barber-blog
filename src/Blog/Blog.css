@@ -411,7 +411,7 @@ button:hover {
     padding: 16px 20px;
     font-size: 1.5rem;
     color: black;
-    
+
 }
 
 
@@ -593,4 +593,47 @@ button:hover {
 .btn-3 button:hover {
     background-color: #fb0000;
     color: white;
+}
+
+
+/* mediaquery */
+@media (max-width: 768px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .all-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+
+
+    }
+
+    .hero-title {
+        display: block;
+        max-width: 100%;
+        align-self: center;
+        padding: 40px 140px;
+        background-color: #150303;
+
+    }
+
+    .hero-title>p {
+        color: #fff;
+        font-size: 5rem;
+        font-weight: 600;
+        position: absolute;
+        top: 40%;
+        left: 26%;
+    }
+
+    .hero-img {
+        display: none;
+    } 
+
 }

@@ -1,5 +1,6 @@
-.container {
+.our-price-container {
   margin-top: 0;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +12,6 @@
   flex: 1;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 300px;
 }
 
 .image {
@@ -26,10 +26,7 @@
   width: 100%;
   max-width: 552px;
   margin-left: 170px;
-  /* margin-right: 5px; */
-  position: absolute;
-  top: 15%;
-  left: 130%;
+  margin-right: 5px;
 }
 
 .pricing-heading {
@@ -92,4 +89,120 @@
 
 .price {
   color: #fb0000;
+}
+
+@media (max-width: 1024px) {
+  .our-price-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .image {
+    margin: 0;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .pricing-section {
+    margin-right: 300px;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+
+
+  }
+
+}
+
+@media (max-width: 768px) {
+  .our-price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+  }
+
+  .image {
+
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+  }
+
+  .pricing-section {
+    margin-right: 300px;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 550px;
+
+
+  }
+
+
+  .heading-background {
+    width: 30px;
+
+  }
+
+  .pricing-heading h2 {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 500;
+    font: 20px;
+    color: #150303;
+    border-bottom: 1px solid black;
+    text-align: left;
+  }
+
+
+
+}
+
+@media (max-width: 480px) {
+  .our-price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+
+  }
+
+  .image {
+
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+  }
+
+  .pricing-section {
+    margin-right: 200px;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 550px;
+
+
+  }
+
+
+  .heading-background {
+    width: 20px;
+
+  }
+
+  .pricing-heading h2 {
+    font-family: 'Chivo', sans-serif;
+    /* font-weight: 500; */
+    font: 10px;
+    color: #150303;
+    border-bottom: 1px solid black;
+    text-align: left;
+  }
 }

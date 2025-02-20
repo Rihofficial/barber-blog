@@ -76,3 +76,42 @@
     font-size: 16px;
     color: #150303;
 }
+@media (max-width: 1024px) {
+.testimonials-section {
+        margin-top: 15px;
+        text-align: center;
+        padding: 140px 70px 0px 70px;
+        height: 83vh;
+    }
+}
+
+
+@media (max-width: 768px) {
+.testimonials-section {
+        margin-top: 15px;
+        text-align: center;
+        padding: 140px 70px 0px 70px;
+        height: 8vh;
+    }
+
+}
+
+@media (max-width: 480px) {
+.testimonials-section {
+        margin-top: 15px;
+        text-align: center;
+        padding: 140px 70px 0px 70px;
+        height: 90vh;
+    }
+}
+
+/* @media screen and (max-width: 480px) {
+    .testimonials-container {
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 10px;
+    }
+
+} */

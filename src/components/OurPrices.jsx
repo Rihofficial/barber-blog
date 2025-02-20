@@ -7,7 +7,7 @@ import barber5 from "../assets/Images/barber5.jpg";
 import barber6 from "../assets/Images/barber6.jpg";
 const OurPrices = () => {
   return (
-    <div className="container">
+    <div className="our-price-container">
       <div className="image-row">
         <img src={barber1} alt="Barber 1" className="image" />
         <img src={barber2} alt="Barber 2" className="image" />
