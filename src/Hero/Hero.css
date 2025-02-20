@@ -68,7 +68,8 @@
          display: flex;
          flex-direction: column;
          text-align: center;
-         height: 70vh;
+         height: 80vh;
+         margin-bottom: 50px;
      }
 
      .hero-titles {
@@ -77,7 +78,7 @@
          height: 100%;
          align-self: center;
          position: relative;
-         margin-bottom: 50px;
+
      }
 
 
@@ -111,7 +112,8 @@
          display: flex;
          flex-direction: column;
          text-align: center;
-         height: 70vh;
+         height: 80vh;
+         margin-bottom: 50px;
      }
 
      .hero-titles {
@@ -120,7 +122,7 @@
          height: 100%;
          align-self: center;
          position: relative;
-         margin-bottom: 50px;
+
      }
 
 
@@ -153,7 +155,8 @@
      .hero-sections {
          margin-top: 0;
          text-align: center;
-         height: 70vh;
+         height: 80vh;
+         margin-bottom: 50px;
 
 
      }
@@ -164,7 +167,7 @@
          height: 100%;
          align-self: center;
          position: relative;
-         margin-bottom: 50px;
+
      }
 
      .hero-titles h1 {
