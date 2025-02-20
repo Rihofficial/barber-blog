@@ -68,11 +68,33 @@
          display: flex;
          flex-direction: column;
          text-align: center;
-         height: 55vh;
+         height: 70vh;
      }
 
+     .hero-titles {
+         padding: 100px;
+         background-color: #150303;
+         height: 100%;
+         align-self: center;
+         position: relative;
+         margin-bottom: 50px;
+     }
+
+
      .hero-titles h1 {
+         margin-top: 140px;
          font-size: 40px;
+         line-height: 50px;
+         text-align: center;
+
+
+     }
+
+     .hero-titles span>img {
+         position: absolute;
+         top: 170px;
+         left: 100px;
+
      }
 
      .hero-imgs {
@@ -89,11 +111,33 @@
          display: flex;
          flex-direction: column;
          text-align: center;
-         height: 55vh;
+         height: 70vh;
      }
 
+     .hero-titles {
+         padding: 100px;
+         background-color: #150303;
+         height: 100%;
+         align-self: center;
+         position: relative;
+         margin-bottom: 50px;
+     }
+
+
      .hero-titles h1 {
-         font-size: 32px;
+         margin-top: 140px;
+         font-size: 40px;
+         line-height: 50px;
+         text-align: center;
+
+
+     }
+
+     .hero-titles span>img {
+         position: absolute;
+         top: 170px;
+         left: 100px;
+
      }
 
      .hero-titles p {
@@ -107,18 +151,40 @@
 
  @media (max-width: 480px) {
      .hero-sections {
-         display: flex;
-         flex-direction: column;
+         margin-top: 0;
          text-align: center;
-         height: 55vh;
+         height: 70vh;
+
+
+     }
+
+     .hero-titles {
+         padding: 100px;
+         background-color: #150303;
+         height: 100%;
+         align-self: center;
+         position: relative;
+         margin-bottom: 50px;
      }
 
      .hero-titles h1 {
-         font-size: 28px;
+         margin-top: 140px;
+         font-size: 30px;
+         line-height: 50px;
+         text-align: center;
+
+
+     }
+
+     .hero-titles span>img {
+         position: absolute;
+         top: 170px;
+         left: 100px;
 
      }
 
      .btn-jsx button {
+         margin-bottom: 50px;
          padding: 10px 20px;
          font-size: 16px;
      }
