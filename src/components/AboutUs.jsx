@@ -6,9 +6,9 @@ const AboutUs = () => {
   return (
     <div className="section">
       <div className="left-column">
-        <p>
+        
           <ListSection />
-        </p>
+        
       </div>
       <div className="center-image">
         <img src={about1} alt="About" />
