@@ -101,6 +101,7 @@ nav {
     font-size: 30px;
     color: white;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 /* DropDown menu */
@@ -144,7 +145,20 @@ nav {
 @media (max-width: 768px) {
     .menu-wrapper {
         display: none;
-        width:100%;
+        width: 100%;
+
+    }
+
+    .menu-button {
+        display: block;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-wrapper {
+        display: none;
+        width: 100%;
 
     }
 
