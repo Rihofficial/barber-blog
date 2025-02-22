@@ -92,7 +92,7 @@
 
 
 /* mediaquery */
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .section {
         height: 70vh;
         padding: 10px 30px;
@@ -144,7 +144,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .section {
         height: 90vh;
         max-width: 100%;
@@ -190,7 +190,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .section {
         height: 90vh;
         width: 200px;
@@ -198,7 +198,7 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 50px;
-        margin-top:50rem;
+        margin-top: 50rem;
         margin-bottom: 20rem;
     }
 
