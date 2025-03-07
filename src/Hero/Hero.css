@@ -195,6 +195,7 @@
      }
 
      .hero-titles span>img {
+         width: 50px;
          position: absolute;
          top: 170px;
          left: 100px;
