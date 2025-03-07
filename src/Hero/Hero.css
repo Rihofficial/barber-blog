@@ -202,10 +202,12 @@
      }
 
      .btn-jsx button {
-        margin-top: 10px;
+         width: 120px;
+         height: 40px;
+         padding: 0;
          position: absolute;
          top: 450px;
-         left: 170px;
+         left: 140px;
      }
 
      .hero-imgs {
