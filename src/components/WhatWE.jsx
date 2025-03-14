@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import About2 from "../assets/Images/about2.jpg";
 import { FaAngleDown } from "react-icons/fa6";
 import { FaAngleUp } from "react-icons/fa6";
