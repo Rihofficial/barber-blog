@@ -221,7 +221,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 19rem;
+
     }
 
     .left-column {
@@ -230,6 +230,7 @@
 
     .right-column {
         width: 400px;
+        margin-bottom: 700px;
     }
 
     .center-image {
