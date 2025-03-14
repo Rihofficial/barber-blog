@@ -1,16 +1,13 @@
 .section {
     display: flex;
-    height: 90vh;
     width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 100px;
-    margin-bottom: 100px;
 }
 
 .container {
     display: flex;
-    margin-bottom: 40px;
     flex-direction: column;
     max-width: 690px;
 }
@@ -19,6 +16,7 @@
     font-family: 'Chivo', sans-serif;
     font-size: 46px;
     font-weight: 500;
+    text-align: center;
     color: #150303;
     position: relative;
     margin-bottom: 30px;
@@ -33,7 +31,7 @@
 .title-background {
     position: absolute;
     top: -10px;
-    left: 0;
+    left: 10;
     width: 50px;
     height: 5px;
     background: #fb0000;
@@ -129,7 +127,10 @@
 
 @media (max-width: 1024px) {
     .accordion-header {
-        font-size: 16px;
+        height: 60px;
+        width: 500px;
+        padding: 20px;
+        font-size: 20px;
     }
 
     .section {
@@ -148,7 +149,10 @@
 
 @media (max-width: 768px) {
     .accordion-header {
-        font-size: 16px;
+        height: 60px;
+        width: 450px;
+        padding: 20px;
+        font-size: 20px;
     }
 
     .section {
@@ -167,7 +171,7 @@
 
 @media (max-width: 480px) {
     .section {
-        margin-bottom: 50rem;
+        margin-bottom: 30rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -179,25 +183,23 @@
         color: #150303;
         position: relative;
         margin-bottom: 30px;
-
+        font-size: 30px;
+        text-align: left;
     }
 
-    .title h1 {
-        font-size: 10px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
-
-    .accordion {
-        width: 40px;
-    }
 
     .accordion-header {
-        font-size: 12px;
+        height: 60px;
+        width: 350px;
+        padding: 20px;
+        font-size: 20px;
     }
 
+
+
     .right-section-img {
-        width: 100px;
+        margin-right: 100px;
+        width: 400px;
         height: 110px;
 
     }

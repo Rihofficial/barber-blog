@@ -2,7 +2,7 @@
     margin-top: 15px;
     text-align: center;
     padding: 140px 70px 0px 70px;
-    height: 83vh;
+    height: 70vh;
 }
 
 .heading {
@@ -82,17 +82,15 @@
         margin-top: 15px;
         text-align: center;
         padding: 140px 70px 0px 70px;
-        height: 83vh;
     }
 }
 
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
     .testimonials-section {
         margin-top: 15px;
         text-align: center;
         padding: 140px 70px 0px 70px;
-        height: 8vh;
     }
 
 }
@@ -102,7 +100,7 @@
         margin-top: 15px;
         text-align: center;
         padding: 140px 70px 0px 70px;
-        height: 90vh;
+        height: 30vh;
         /* margin-top: 70rem; */
         margin-bottom: 50rem;
     }

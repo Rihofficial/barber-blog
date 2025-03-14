@@ -32,7 +32,7 @@ const Blog = () => {
       <>
         <div className="hero-section">
           <div className="hero-title">
-            <p>Blog Details</p>
+            <h1>Blog Details</h1>
           </div>
           <div className="hero-img">
             <img src={hero4} alt="Hero Image" />

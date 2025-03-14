@@ -8,10 +8,10 @@ const Hero = () => {
       <header>
         <div className="hero-sections">
           <div className="hero-titles">
-            <span>
-              <img src={sicssors} alt="" />
-            </span>
             <h1>
+              <span>
+                <img src={sicssors} alt="" />
+              </span>
               WE'RE THE
               <br />
               LAST OF
