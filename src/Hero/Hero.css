@@ -131,10 +131,6 @@
      }
 
      .hero-titles {
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        align-items: flex-start;
          padding: 100px;
          background-color: #150303;
          height: 100%;
