@@ -7,15 +7,14 @@ const Contact = () => {
     <div>
       <div className="hero-section">
         <div className="hero-title">
-          <p>Contact Us</p>
+          <h1>Contact Us</h1>
         </div>
         <div className="hero-img">
           <img src={hero} alt="Hero Image" />
         </div>
       </div>
-       <EmbeddedMap />
-        <ContactForm />
-    
+      <EmbeddedMap />
+      <ContactForm />
     </div>
   );
 };
