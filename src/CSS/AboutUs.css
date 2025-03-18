@@ -225,12 +225,12 @@
     }
 
     .left-column {
-        width: 400px;
+        width: 380px;
     }
 
     .right-column {
-        width: 400px;
-        margin-bottom: 700px;
+        width: 380px;
+        /* margin-bottom: 700px; */
     }
 
     .center-image {

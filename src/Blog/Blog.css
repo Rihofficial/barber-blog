@@ -949,8 +949,8 @@ button:hover {
     .hero-title>h1 {
         width: 100%;
         position: absolute;
-        top: 40%;
-        left: 26%;
+        top: 160px;
+        left: 26px;
     }
 
     .hero-img {
