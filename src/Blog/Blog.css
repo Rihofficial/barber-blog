@@ -1095,11 +1095,21 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 300px;
     }
-
+     .contact-form >input{
+        width: 300px;
+     }
+     .contact-form >textarea{
+        width: 300px;
+     }
+     .btn-0{
+        width: 300px;
+     }
     .form-row {
         display: flex;
         flex-direction: column;
+        width: 300px;
     }
 
     /* Grid-2 */
@@ -1108,7 +1118,7 @@ button:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0 20px;
+        /* padding: 0 20px; */
     }
 
     .cat-1 {
