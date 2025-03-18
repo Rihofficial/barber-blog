@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.gallery-hero>p {
+.gallery-hero>h1 {
     color: #fff;
     font-size: 5rem;
     font-weight: 600;

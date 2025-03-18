@@ -14,7 +14,7 @@ const Gallery = () => {
     <>
       <div className="hero-section">
         <div className="hero-title">
-          <p>Gallery</p>
+          <h1>Gallery</h1>
         </div>
         <div className="hero-img">
           <img src={hero3} alt="" />
