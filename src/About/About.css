@@ -67,11 +67,18 @@
 @media only screen and (max-width: 480px) {
 
     .hero1 {
-        width: 1000px;
+        width: 100%;
+        margin-top: 0;
+        text-align: left;
+        height: 70vh;
+        margin-bottom: 400px;
     }
 
     .hero1>h1 {
-        /* width: 400px; */
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
     }
 
     .image-rows>img {

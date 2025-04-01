@@ -4,12 +4,14 @@
   width: 90%;
   height: 70vh;
 }
+
 .header-text {
   font-family: "Chivo Mono", monospace;
   font-size: 24px;
   font-weight: bold;
   padding: 20px;
 }
+
 .contact-form-container {
   display: flex;
   justify-content: space-between;
@@ -111,4 +113,29 @@ p {
   font-size: 19px;
   color: #000;
   margin: 0;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .contact-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

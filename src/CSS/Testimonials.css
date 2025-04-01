@@ -106,13 +106,21 @@
     }
 }
 
-/* @media screen and (max-width: 480px) {
-    .testimonials-container {
-        margin-bottom: 100px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 10px;
+@media screen and (max-width: 480px) {
+    .testimonials-section {
+        margin-top: 0;
+        text-align: center;
+        padding: 140px 70px 0px 70px;
+        height: 80vh;
     }
 
-} */
+    .testimonials-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+}

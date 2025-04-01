@@ -1,4 +1,4 @@
-import "../CSS/OurPrices.css";
+ import "../CSS/OurPrices.css";
 import barber1 from "../assets/Images/barber1.jpg";
 import barber2 from "../assets/Images/barber2.jpg";
 import barber3 from "../assets/Images/barber3.jpg";
