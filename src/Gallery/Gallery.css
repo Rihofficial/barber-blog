@@ -83,3 +83,31 @@
     height: 350px;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 480px) {
+    .hero-section {
+        width: 1000px;
+        margin-top: 0;
+        text-align: left;
+        height: 70vh;
+        margin-bottom: 400px;
+    }
+
+    .hero-title {
+        padding: 100px;
+        background-color: #150303;
+        height: 100%;
+        width: 1000px;
+    }
+
+    .hero-title>h1 {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .hero-img>img {
+        display: none;
+    }
+}

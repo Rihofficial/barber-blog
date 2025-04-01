@@ -2,7 +2,7 @@ import ImageGallery from "../components/ImageGallery";
 import Section from "../components/Section";
 import Testimonials from "../components/Testimonials";
 import WhatWe from "../components/WhatWE";
-import "./Services.css"
+import "./Services.css";
 import hero4 from "../assets/Images/h1_hero1.jpg";
 
 const Services = () => {
@@ -10,13 +10,10 @@ const Services = () => {
     <div>
       <div className="services-hero-section">
         <div className="services-hero-title">
-          <p>Services</p>
+          <h1>Services</h1>
         </div>
         <div className="services-hero-img">
-          <img
-            src={hero4}
-            alt="Hero Image"
-          />
+          <img src={hero4} alt="Hero Image" />
         </div>
       </div>
       <WhatWe />
@@ -25,6 +22,6 @@ const Services = () => {
       <Testimonials />
     </div>
   );
-}
+};
 
-export default Services
+export default Services;

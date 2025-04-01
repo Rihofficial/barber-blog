@@ -65,13 +65,19 @@
 }
 
 @media only screen and (max-width: 480px) {
-
-    .hero1 {
-        width: 100%;
+    .containers {
+        width: 1000px;
         margin-top: 0;
         text-align: left;
         height: 70vh;
         margin-bottom: 400px;
+    }
+
+    .hero1 {
+        padding: 100px;
+        background-color: #150303;
+        height: 100%;
+        width: 1000px;
     }
 
     .hero1>h1 {
