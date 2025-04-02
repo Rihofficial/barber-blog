@@ -124,11 +124,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
   }
 
   .header-text {
     width: 100%;
-    /* margin-right: 150px; */
     text-align: left;
   }
 
