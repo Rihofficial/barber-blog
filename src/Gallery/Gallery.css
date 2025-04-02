@@ -90,7 +90,7 @@
         margin-top: 0;
         text-align: left;
         height: 70vh;
-        margin-bottom: 400px;
+        margin-bottom: 0;
     }
 
     .hero-title {
@@ -109,5 +109,49 @@
 
     .hero-img>img {
         display: none;
+    }
+
+    .gallery-image-section {
+        padding: 0 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 90vh;
+
+    }
+
+    .gallery-head-section {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .gallery-border {
+
+        position: absolute;
+        top: 57%;
+        left: 39%;
+    }
+
+    .gallery-image-section h1 {
+        margin-top: 0;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+
+    .gallery {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+
+    }
+
+    .gallery img {
+        width: 230px;
+        height: 200px;
+        object-fit: cover;
     }
 }

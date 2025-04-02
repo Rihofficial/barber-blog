@@ -1097,15 +1097,19 @@ button:hover {
         align-items: center;
         width: 300px;
     }
-     .contact-form >input{
+
+    .contact-form>input {
         width: 300px;
-     }
-     .contact-form >textarea{
+    }
+
+    .contact-form>textarea {
         width: 300px;
-     }
-     .btn-0{
+    }
+
+    .btn-0 {
         width: 300px;
-     }
+    }
+
     .form-row {
         display: flex;
         flex-direction: column;

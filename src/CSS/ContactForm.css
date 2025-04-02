@@ -119,13 +119,30 @@ p {
 
 @media only screen and (max-width: 480px) {
   .contact-main-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+  .header-text {
+    width: 100%;
+    /* margin-right: 150px; */
+    text-align: left;
+  }
+
   .contact-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-right: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,9 +150,14 @@ p {
   }
 
   .contact-form-row {
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .contact-form-input {
+    width: 300px;
   }
 }

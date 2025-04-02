@@ -1,4 +1,4 @@
-import React from "react";
+import "../CSS/EmbeddedMap.css";
 
 const EmbeddedMap = () => {
   return (
@@ -6,12 +6,11 @@ const EmbeddedMap = () => {
       <iframe
         title="Google Map for Buttonwood, Rosemead, CA"
         width=" 80%"
-              height="500"
+        height="500"
         style={{
           border: 0,
           marginLeft: 170,
           marginTop: 70,
-         
         }}
         loading="lazy"
         allowFullScreen
