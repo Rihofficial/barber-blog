@@ -10,7 +10,7 @@ const Services = () => {
     <div>
       <div className="services-hero-section">
         <div className="services-hero-title">
-          <h1>Services</h1>
+          <p>Services</p>
         </div>
         <div className="services-hero-img">
           <img src={hero4} alt="Hero Image" />
